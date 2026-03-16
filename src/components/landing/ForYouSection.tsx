@@ -13,7 +13,7 @@ const naoItems = [
   "Você busca uma pílula mágica sem nenhum esforço",
   "Não está disposta a mudar nenhum hábito alimentar",
   "Espera perder 10kg em uma semana sem desinflamar primeiro",
-  "Quer um resultado sem precisar aplicar o protocolo na prática",
+  "Quer resultado sem precisar aplicar o protocolo na prática",
 ];
 
 const ForYouSection = () => {
