@@ -29,7 +29,7 @@ const HeroSection = () => (
       </h1>
 
       <p className="mx-auto mb-5 max-w-[580px] text-[15px] leading-[1.72] text-primary-foreground/72 sm:text-lg sm:mb-7">
-        Sem dieta restritiva, sem sofrimento, <strong className="text-primary-foreground">mesmo que você acredite que já tenha tentado de tudo.</strong>
+        <span className="text-primary-foreground font-normal">Sem dieta restritiva, sem sofrimento,</span> <strong className="text-primary-foreground">mesmo que você acredite que já tenha tentado de tudo.</strong>
       </p>
 
       <p className="mx-auto mb-9 max-w-[520px] text-sm leading-[1.7] text-primary-foreground/55 sm:text-base">
