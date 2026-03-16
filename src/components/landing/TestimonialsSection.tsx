@@ -1,10 +1,16 @@
 import { useReveal } from "@/hooks/useReveal";
+import depoimentoAnteDepois from "@/assets/depoimento-antes-depois.jpeg";
+import depoimentoWhatsapp from "@/assets/depoimento-whatsapp.jpeg";
+import depoimentoInstagram from "@/assets/depoimento-instagram.jpg";
+import depoimentoResultado from "@/assets/depoimento-resultado.jpg";
+import depoimentoKathi from "@/assets/depoimento-kathi.jpg";
 
-const testimonials = [
-  { name: "Camila R.", city: "São Paulo, SP", text: "Em 5 dias meu intestino regulou. Estava há meses com distensão e nada resolvia. O RESET mudou tudo." },
-  { name: "Fernanda M.", city: "Curitiba, PR", text: "Perdi 3kg de inchaço nos primeiros 7 dias. Meu rosto desinflou e minha disposição voltou. Estou impressionada." },
-  { name: "Juliana K.", city: "Florianópolis, SC", text: "Achava que era normal viver cansada. Depois do RESET, acordo com energia de verdade. Minha pele também melhorou muito." },
-  { name: "Patrícia L.", city: "Belo Horizonte, MG", text: "Fiz o protocolo completo e até minha TPM melhorou. Menos inchaço, menos irritabilidade. Recomendo muito." },
+const imageTestimonials = [
+  { img: depoimentoAnteDepois, caption: "Resultado real — antes e depois do protocolo RESET" },
+  { img: depoimentoWhatsapp, caption: "Depoimento real de aluna via WhatsApp" },
+  { img: depoimentoInstagram, caption: "Comentário espontâneo no Instagram" },
+  { img: depoimentoResultado, caption: "Resultado após 3 meses do RESET" },
+  { img: depoimentoKathi, caption: "Depoimento real de aluna via WhatsApp" },
 ];
 
 const featuredTestimonial = {
@@ -28,23 +34,18 @@ const TestimonialsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 sm:gap-4">
-          {testimonials.map((t, i) => (
-            <div key={i} className="relative rounded-[14px] border border-creme-3 bg-creme px-[18px] py-[22px] sm:px-[22px] sm:py-[26px]">
-              <span className="pointer-events-none absolute right-3.5 top-2.5 font-display text-[56px] leading-none text-creme-3">"</span>
-              <div className="mb-2.5 text-[13px] tracking-[2px] text-gold">★★★★★</div>
-              <blockquote className="mb-4 text-[13.5px] italic leading-[1.75] text-foreground">"{t.text}"</blockquote>
-              <div className="flex items-center gap-2.5 border-t border-creme-3 pt-3">
-                <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-sage-ultra text-[11px] font-bold text-sage">{t.name[0]}</div>
-                <div>
-                  <span className="block text-[12.5px] font-bold text-foreground">{t.name}</span>
-                  <span className="text-[11px] text-foreground-muted">{t.city}</span>
-                </div>
+          {imageTestimonials.map((t, i) => (
+            <div key={i} className="overflow-hidden rounded-[14px] border border-creme-3 bg-creme">
+              <img src={t.img} alt={t.caption} className="w-full object-cover" loading="lazy" />
+              <div className="px-4 py-3">
+                <div className="mb-1.5 text-[13px] tracking-[2px] text-gold">★★★★★</div>
+                <p className="text-[13px] leading-snug text-foreground-secondary">{t.caption}</p>
               </div>
             </div>
           ))}
 
-          {/* Featured testimonial spanning 2 columns */}
-          <div className="relative rounded-[14px] border border-creme-3 bg-creme px-[18px] py-[22px] sm:col-span-2 sm:px-[22px] sm:py-[26px]">
+          {/* Featured text testimonial */}
+          <div className="relative rounded-[14px] border border-creme-3 bg-creme px-[18px] py-[22px] sm:px-[22px] sm:py-[26px]">
             <div className="mb-2.5 text-[13px] tracking-[2px] text-gold">★★★★★</div>
             <blockquote
               className="mb-4 text-[13.5px] italic leading-[1.75] text-foreground"
@@ -63,7 +64,7 @@ const TestimonialsSection = () => {
         {/* Numbers banner */}
         <div className="mt-9 flex flex-col items-center gap-5 rounded-[14px] bg-sage-dark px-[22px] py-[26px] text-center sm:flex-row sm:gap-5 sm:px-8 sm:py-7 sm:text-left">
           <span className="flex-shrink-0 font-display text-[52px] font-bold leading-none text-gold-light">88+</span>
-          <p className="text-sm leading-[1.65] text-primary-foreground/72">
+          <p className="text-sm leading-[1.65] text-primary-foreground">
             Mulheres que seguiram o RESET e <strong className="text-primary-foreground">transformaram a saúde intestinal, o sono, a disposição e a relação com o corpo.</strong>
           </p>
         </div>
