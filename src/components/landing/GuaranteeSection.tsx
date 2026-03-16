@@ -12,7 +12,7 @@ const GuaranteeSection = () => {
             Garantia de <em className="italic text-sage">7 dias</em><br />sem letras miúdas
           </h3>
           <p className="text-[14.5px] leading-[1.78] text-foreground-secondary">
-            Se em 7 dias você não sentir nenhuma diferença — se o protocolo não fizer sentido para você, ou se você simplesmente mudar de ideia — devolvo <strong className="text-foreground">100% do seu dinheiro</strong>, sem questionamentos, sem burocracia, sem precisar dar nenhuma explicação. Você não tem nada a perder. Só a inflamação.
+            Se em 7 dias você não sentir nenhuma diferença — ou simplesmente mudar de ideia — devolvo <strong className="text-foreground">100% do seu dinheiro</strong>, sem questionamentos, sem burocracia, sem precisar dar nenhuma explicação. Você não tem nada a perder. Só a inflamação.
           </p>
         </div>
       </div>

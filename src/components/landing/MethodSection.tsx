@@ -20,7 +20,7 @@ const MethodSection = () => {
             Corpo funciona<br /><em className="italic text-terra">como engrenagens</em>
           </h2>
           <p className="text-[15px] leading-[1.78] text-foreground-secondary sm:text-[17px]">
-            As peças precisam estar no lugar certo, receber manutenção, limpeza e ajustes para funcionarem. Quando todas se encaixam, o resultado é <strong className="text-foreground">INEVITÁVEL.</strong>
+            As peças precisam estar no lugar certo, receber manutenção e ajustes para funcionarem. Quando todas se encaixam, o resultado é <strong className="text-foreground">INEVITÁVEL.</strong>
           </p>
         </div>
 
@@ -31,10 +31,10 @@ const MethodSection = () => {
               🌿 O método RESET
             </div>
             <h3 className="font-display text-[28px] font-bold leading-[1.15] text-foreground mb-3">
-              Quando você aprende a<br /><em className="italic text-terra">trabalhar a seu favor</em>
+              Em <em className="italic text-terra">21 dias</em>, seu corpo trabalha a seu favor
             </h3>
             <p className="mb-3.5 text-sm leading-[1.78] text-foreground-secondary">
-              Em <strong className="text-foreground">21 dias de protocolo</strong>, respeitando seu ciclo biológico e desinflamando seu intestino, o corpo passa a te responder. Não é magia — é o seu corpo funcionando como deveria.
+              Respeitando seu ciclo biológico e desinflamando seu intestino, seu corpo passa a te responder. Não é magia — é o seu corpo funcionando como deveria.
             </p>
             <ul className="mt-6 flex flex-col gap-4">
               {checkItems.map((c, i) => (

@@ -8,7 +8,7 @@ const faqs = [
   { q: "Posso fazer mesmo tomando medicamentos?", a: "Para a maioria das pessoas, sim. O protocolo é baseado em alimentação e práticas naturais. Sempre recomendamos consultar seu médico antes de iniciar qualquer mudança de rotina." },
   { q: "Como vou acessar o conteúdo?", a: "Acesso 100% digital e imediato. Após a confirmação do pagamento você recebe e-mail com login e senha. Disponível no celular, tablet ou computador — acesso anual com renovação disponível." },
   { q: "E se eu não gostar? Como funciona a garantia?", a: "7 dias de garantia total. Basta enviar um e-mail e você recebe 100% do valor de volta, sem precisar dar nenhuma explicação. Sem burocracia, sem \"por quê\"." },
-  { q: "Vou ter suporte durante o protocolo?", a: "Sim. Você tem suporte por WhatsApp para dúvidas durante o protocolo, mais uma comunidade ativa com desafios e encontros — para você não ficar sozinha no processo." },
+  { q: "Vou ter suporte durante o protocolo?", a: "Sim. Você tem suporte por WhatsApp para dúvidas, mais uma comunidade ativa com desafios e encontros — para você não ficar sozinha no processo." },
 ];
 
 const FAQSection = () => {

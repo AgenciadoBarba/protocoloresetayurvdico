@@ -1,19 +1,19 @@
 import { useReveal } from "@/hooks/useReveal";
 
 const items = [
-  { ico: "🎥", title: "Aulas em Vídeo com Acesso Anual", desc: "Conteúdo gravado, direto ao ponto, para você assistir no seu ritmo e revisitar quando quiser.", tag: "Acesso anual", highlight: true },
-  { ico: "📋", title: "Guia Passo a Passo (PDF)", desc: "O que fazer em cada dia do protocolo: práticas, ervas e rotinas direcionadas para o seu tipo de corpo.", tag: "PDF completo", highlight: false },
+  { ico: "🎥", title: "Aulas em Vídeo Práticas", desc: "Curtas, diretas e fáceis de aplicar. Ferramentas reais para reduzir a inflamação no seu cotidiano.", tag: "Acesso anual", highlight: true },
+  { ico: "📋", title: "Guia Passo a Passo Completo", desc: "O que fazer em cada dia: práticas, ervas e rotinas direcionadas para o seu tipo de corpo.", tag: "PDF completo", highlight: false },
   { ico: "🍵", title: "Guia de Chás para Digestão e Ciclo", desc: "Combinações específicas para desinflamar o intestino, equilibrar o ciclo e reduzir a TPM.", tag: "Incluso", highlight: false },
   { ico: "⚗️", title: "Fórmulas Prontas para Manipulação", desc: "As fórmulas exatas para manipular as ervas ayurvédicas — sem erro, sem perda de tempo.", tag: "Bônus", highlight: false },
-  { ico: "🌱", title: "Desparasitação com Tintura", desc: "Protocolo com ervas específicas para eliminação de parasitas — parte fundamental da desinflamação intestinal.", tag: "Incluso", highlight: false },
-  { ico: "👥", title: "Comunidade + Suporte WhatsApp", desc: "Encontros, desafios e trocas para manter você incentivada. Tire dúvidas diretamente durante o processo.", tag: "Acesso anual", highlight: true },
+  { ico: "🌱", title: "Desparasitação com Tintura", desc: "Protocolo com ervas específicas para eliminação de parasitas — parte fundamental da desinflamação.", tag: "Incluso", highlight: false },
+  { ico: "👥", title: "Comunidade + Suporte WhatsApp", desc: "Encontros, desafios e trocas. Tire dúvidas diretamente durante todo o processo.", tag: "Acesso anual", highlight: true },
 ];
 
 const steps = [
-  "Você entra e **assiste as aulas** — curtas e diretas ao ponto",
-  "Baixa o material do **passo a passo** para desinflamar (ervas, práticas, alimentos)",
-  "Aplica com **suporte por WhatsApp** caso tenha dúvidas",
-  "Entra na **comunidade** para se manter incentivada com desafios e trocas",
+  "Você entra e <strong>assiste as aulas</strong> — curtas e diretas",
+  "Baixa o <strong>passo a passo</strong> completo (ervas, práticas, alimentos)",
+  "Aplica com <strong>suporte por WhatsApp</strong> para dúvidas",
+  "Entra na <strong>comunidade</strong> para se manter incentivada",
 ];
 
 const IncludedSection = () => {
@@ -22,10 +22,13 @@ const IncludedSection = () => {
   return (
     <section className="bg-creme py-[60px] sm:py-20">
       <div ref={ref} className="reveal-section mx-auto w-full max-w-[1060px] px-5 sm:px-7 md:px-8">
-        <span className="mb-3 block text-[11px] font-bold uppercase tracking-[3px] text-sage">O que está incluído</span>
+        <span className="mb-3 block text-[11px] font-bold uppercase tracking-[3px] text-sage">O que você recebe</span>
         <h2 className="font-display text-[30px] font-bold leading-[1.15] text-foreground mb-4 sm:text-[40px] md:text-[50px]">
-          Tudo que você recebe<br /><em className="italic text-terra">ao entrar no RESET</em>
+          E como é o RESET<br /><em className="italic text-terra">no detalhe?</em>
         </h2>
+        <p className="mb-9 text-[15px] leading-[1.78] text-foreground-secondary sm:text-[17px]">
+          Tudo que você precisa para desinflamar de verdade — em um único lugar, com suporte real.
+        </p>
 
         <div className="mt-9 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item, i) => (
@@ -42,13 +45,13 @@ const IncludedSection = () => {
         <div className="sage-gradient mt-9 flex flex-col gap-6 rounded-2xl px-[22px] py-[30px] sm:px-8 sm:py-9 md:grid md:grid-cols-2 md:items-center md:gap-11">
           <div>
             <h4 className="font-display text-[22px] font-bold leading-[1.2] text-primary-foreground mb-1.5">Com um caminho descomplicado:</h4>
-            <p className="text-[13.5px] leading-relaxed text-primary-foreground/60">Cabe na sua rotina. Sem horas por dia, sem ingredientes caros, sem complicar.</p>
+            <p className="text-[13.5px] leading-relaxed text-primary-foreground/60">Cabe na sua rotina. Sem horas por dia, sem ingredientes caros.</p>
           </div>
           <div className="flex flex-col gap-[13px]">
             {steps.map((s, i) => (
               <div key={i} className="flex items-start gap-2.5">
                 <span className="mt-0.5 flex-shrink-0 text-sm font-bold text-gold-light">&gt;&gt;</span>
-                <p className="text-[13.5px] leading-relaxed text-primary-foreground/80" dangerouslySetInnerHTML={{ __html: s.replace(/\*\*(.*?)\*\*/g, '<strong class="text-white">$1</strong>') }} />
+                <p className="text-[13.5px] leading-relaxed text-primary-foreground/80" dangerouslySetInnerHTML={{ __html: s }} />
               </div>
             ))}
           </div>

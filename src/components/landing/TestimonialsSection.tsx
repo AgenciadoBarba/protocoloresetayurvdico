@@ -7,6 +7,12 @@ const testimonials = [
   { name: "Patrícia L.", city: "Belo Horizonte, MG", text: "Fiz o protocolo completo e até minha TPM melhorou. Menos inchaço, menos irritabilidade. Recomendo muito." },
 ];
 
+const featuredTestimonial = {
+  name: "Daiane G.",
+  role: "Aluna RESET",
+  text: "\"...saiba que o que você faz é incrível, <strong>não é apenas um curso, é UMA SALVAÇÃO, UM RETORNO DE ESPERANÇA, RESGATE DE AUTOESTIMA E MUITO MAIS.</strong> Parabéns pelo seu trabalho e continue...\"",
+};
+
 const TestimonialsSection = () => {
   const ref = useReveal();
 
@@ -36,6 +42,22 @@ const TestimonialsSection = () => {
               </div>
             </div>
           ))}
+
+          {/* Featured testimonial spanning 2 columns */}
+          <div className="relative rounded-[14px] border border-creme-3 bg-creme px-[18px] py-[22px] sm:col-span-2 sm:px-[22px] sm:py-[26px]">
+            <div className="mb-2.5 text-[13px] tracking-[2px] text-gold">★★★★★</div>
+            <blockquote
+              className="mb-4 text-[13.5px] italic leading-[1.75] text-foreground"
+              dangerouslySetInnerHTML={{ __html: featuredTestimonial.text }}
+            />
+            <div className="flex items-center gap-2.5 border-t border-creme-3 pt-3">
+              <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-sage-ultra text-[11px] font-bold text-sage">DA</div>
+              <div>
+                <span className="block text-[12.5px] font-bold text-foreground">{featuredTestimonial.name}</span>
+                <span className="text-[11px] text-foreground-muted">{featuredTestimonial.role}</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Numbers banner */}
