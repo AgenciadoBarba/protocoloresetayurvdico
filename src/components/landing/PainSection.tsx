@@ -45,7 +45,7 @@ const PainSection = () => {
           <h3 className="relative font-display text-[22px] font-bold leading-[1.28] text-primary-foreground mb-3 sm:text-[30px]">
             Se nada mudar, como você acha<br />que estará daqui 1 ano?
           </h3>
-          <p className="relative text-sm leading-[1.72] text-primary-foreground/72">
+          <p className="relative text-sm leading-[1.72] text-primary-foreground">
             Essa foi uma das perguntas da nossa pesquisa com mais de 88 mulheres. A resposta mais comum: <strong className="text-[#C8F0D4]">"No limite, preciso mudar já."</strong> Você chegou até aqui por um motivo.
           </p>
         </div>
