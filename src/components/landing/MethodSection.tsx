@@ -20,7 +20,7 @@ const MethodSection = () => {
             Corpo funciona<br /><em className="italic text-terra">como engrenagens</em>
           </h2>
           <p className="text-[15px] leading-[1.78] text-foreground-secondary sm:text-[17px]">
-            As peças precisam estar no lugar certo, receber manutenção, limpeza e ajustes para funcionarem. Quando todas se encaixam, o resultado é <strong className="text-foreground">INEVITÁVEL.</strong>
+            As peças precisam estar no lugar certo, receber manutenção e ajustes para funcionarem. Quando todas se encaixam, o resultado é <strong className="text-foreground">INEVITÁVEL.</strong>
           </p>
         </div>
 
