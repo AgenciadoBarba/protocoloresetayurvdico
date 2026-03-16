@@ -1,9 +1,9 @@
 import { useReveal } from "@/hooks/useReveal";
 
 const bonuses = [
-  { ico: "⚗️", title: "Fórmulas Prontas para Manipulação", desc: "As fórmulas ayurvédicas exatas para você chegar na farmácia de manipulação e fazer certinho.", valor: "R$97" },
-  { ico: "🍵", title: "Guia de Chás para Digestão e Ciclo", desc: "Combinações específicas para desinflamar, regular o ciclo menstrual e reduzir TPM — com posologia e horários ideais.", valor: "R$67" },
-  { ico: "🌱", title: "Protocolo de Desparasitação", desc: "Ervas específicas para eliminação de parasitas intestinais — um passo que a maioria ignora e que faz toda a diferença.", valor: "R$77" },
+  { ico: "⚗️", title: "Fórmulas Prontas para Manipulação", desc: "As fórmulas ayurvédicas exatas para você chegar na farmácia e fazer certinho.", valor: "R$97" },
+  { ico: "🍵", title: "Guia de Chás para Digestão e Ciclo", desc: "Combinações para desinflamar, regular o ciclo menstrual e reduzir TPM — com posologia e horários.", valor: "R$67" },
+  { ico: "🌱", title: "Protocolo de Desparasitação", desc: "Ervas para eliminação de parasitas intestinais — um passo que a maioria ignora e que faz toda a diferença.", valor: "R$77" },
   { ico: "👥", title: "Comunidade Anual + Encontros ao Vivo", desc: "Acesso por 1 ano com desafios, trocas e encontros. Para você não ficar sozinha depois dos 21 dias.", valor: "R$120/ano" },
 ];
 
