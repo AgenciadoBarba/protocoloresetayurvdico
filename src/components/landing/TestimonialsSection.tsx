@@ -34,8 +34,6 @@ const TestimonialsSection = () => {
             </div>
           ))}
         </div>
-        </div>
-
 
         {/* Numbers banner */}
         <div className="mt-9 flex flex-col items-center gap-5 rounded-[14px] bg-sage-dark px-[22px] py-[26px] text-center sm:flex-row sm:gap-5 sm:px-8 sm:py-7 sm:text-left">
