@@ -18,8 +18,8 @@ const ElizaSection = () => {
         <div className="mt-7 flex flex-col gap-8 md:grid md:grid-cols-[300px_1fr] md:items-start md:gap-[52px]">
           {/* Photo + Credentials */}
           <div className="flex flex-col gap-4">
-            <div className="flex h-[200px] items-center justify-center rounded-2xl bg-sage-ultra shadow-[0_8px_32px_rgba(0,0,0,.12)]">
-              <span className="text-6xl font-bold text-sage/40">E</span>
+            <div className="overflow-hidden rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,.12)]">
+              <img src={elizaPhoto} alt="Eliza de Lara — Biomédica e criadora do RESET" className="w-full object-cover" />
             </div>
             <div className="flex flex-col gap-2.5">
               {credentials.map((c, i) => (
