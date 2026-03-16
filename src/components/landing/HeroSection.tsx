@@ -42,7 +42,7 @@ const HeroSection = () => (
       </a>
 
       {/* Stats */}
-      <div className="mt-11 flex flex-col overflow-hidden rounded-[14px] border border-primary-foreground/10">
+      <div className="mt-11 flex flex-col overflow-hidden rounded-[14px] border border-primary-foreground/10 sm:mx-auto sm:max-w-[560px] sm:flex-row">
         {[
           { num: "88+", label: "mulheres já desinflamadas" },
           { num: "21", label: "dias para reprogramar seu corpo" },
@@ -57,10 +57,5 @@ const HeroSection = () => (
     </div>
   </section>
 );
-
-// Add responsive flex for stats
-const style = document.createElement("style");
-style.textContent = `@media(min-width:560px){.hero-gradient .flex.flex-col.overflow-hidden{flex-direction:row;max-width:560px;margin-left:auto;margin-right:auto}}`;
-document.head.appendChild(style);
 
 export default HeroSection;
