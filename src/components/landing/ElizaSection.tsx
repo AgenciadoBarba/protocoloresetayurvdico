@@ -1,4 +1,5 @@
 import { useReveal } from "@/hooks/useReveal";
+import elizaPhoto from "@/assets/eliza.jpeg";
 
 const credentials = [
   { ico: "🎓", text: "Biomédica" },
