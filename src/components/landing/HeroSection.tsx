@@ -36,10 +36,6 @@ const HeroSection = () => (
         O plano completo para você parar de brigar com o seu corpo — e finalmente se tornar sua maior aliada. Você só precisa de um <strong className="text-primary-foreground/75">RESET.</strong>
       </p>
 
-      {/* CTA */}
-      <a href={CHECKOUT_URL} className="btn-cta-gradient mx-auto mb-3 block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
-        🌿 ESTOU PRONTA — Quero meu acesso
-      </a>
 
       {/* Stats */}
       <div className="mt-11 flex flex-col overflow-hidden rounded-[14px] border border-primary-foreground/10 sm:mx-auto sm:max-w-[560px] sm:flex-row">
