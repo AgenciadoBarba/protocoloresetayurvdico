@@ -46,7 +46,7 @@ const HeroSection = () => (
         ].map((s, i) => (
           <div key={i} className="border-b border-primary-foreground/[.07] px-4 py-[18px] text-center last:border-b-0 sm:flex-1 sm:border-b-0 sm:border-r sm:last:border-r-0">
             <strong className="mb-1 block font-display text-[34px] font-bold leading-none text-gold-light sm:text-[38px]">{s.num}</strong>
-            <span className="block text-xs text-primary-foreground/48 leading-snug">{s.label}</span>
+            <span className="block text-xs text-primary-foreground leading-snug">{s.label}</span>
           </div>
         ))}
       </div>
