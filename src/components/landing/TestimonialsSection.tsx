@@ -6,18 +6,12 @@ import depoimentoResultado from "@/assets/depoimento-resultado.jpg";
 import depoimentoKathi from "@/assets/depoimento-kathi.jpg";
 
 const imageTestimonials = [
-  { img: depoimentoAnteDepois, caption: "Resultado real — antes e depois do protocolo RESET" },
-  { img: depoimentoWhatsapp, caption: "Depoimento real de aluna via WhatsApp" },
-  { img: depoimentoInstagram, caption: "Comentário espontâneo no Instagram" },
-  { img: depoimentoResultado, caption: "Resultado após 3 meses do RESET" },
-  { img: depoimentoKathi, caption: "Depoimento real de aluna via WhatsApp" },
+  { img: depoimentoAnteDepois, alt: "Resultado real — antes e depois do protocolo RESET" },
+  { img: depoimentoWhatsapp, alt: "Depoimento real de aluna via WhatsApp" },
+  { img: depoimentoInstagram, alt: "Comentário espontâneo no Instagram" },
+  { img: depoimentoResultado, alt: "Resultado após 3 meses do RESET" },
+  { img: depoimentoKathi, alt: "Depoimento real de aluna via WhatsApp" },
 ];
-
-const featuredTestimonial = {
-  name: "Daiane G.",
-  role: "Aluna RESET",
-  text: "\"...saiba que o que você faz é incrível, <strong>não é apenas um curso, é UMA SALVAÇÃO, UM RETORNO DE ESPERANÇA, RESGATE DE AUTOESTIMA E MUITO MAIS.</strong> Parabéns pelo seu trabalho e continue...\"",
-};
 
 const TestimonialsSection = () => {
   const ref = useReveal();
@@ -35,30 +29,10 @@ const TestimonialsSection = () => {
 
         <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 sm:gap-4">
           {imageTestimonials.map((t, i) => (
-            <div key={i} className="overflow-hidden rounded-[14px] border border-creme-3 bg-creme">
-              <img src={t.img} alt={t.caption} className="w-full object-cover" loading="lazy" />
-              <div className="px-4 py-3">
-                <div className="mb-1.5 text-[13px] tracking-[2px] text-gold">★★★★★</div>
-                <p className="text-[13px] leading-snug text-foreground-secondary">{t.caption}</p>
-              </div>
+            <div key={i} className="overflow-hidden rounded-[14px] border border-creme-3">
+              <img src={t.img} alt={t.alt} className="w-full object-cover" loading="lazy" />
             </div>
           ))}
-
-          {/* Featured text testimonial */}
-          <div className="relative rounded-[14px] border border-creme-3 bg-creme px-[18px] py-[22px] sm:px-[22px] sm:py-[26px]">
-            <div className="mb-2.5 text-[13px] tracking-[2px] text-gold">★★★★★</div>
-            <blockquote
-              className="mb-4 text-[13.5px] italic leading-[1.75] text-foreground"
-              dangerouslySetInnerHTML={{ __html: featuredTestimonial.text }}
-            />
-            <div className="flex items-center gap-2.5 border-t border-creme-3 pt-3">
-              <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-sage-ultra text-[11px] font-bold text-sage">DA</div>
-              <div>
-                <span className="block text-[12.5px] font-bold text-foreground">{featuredTestimonial.name}</span>
-                <span className="text-[11px] text-foreground-muted">{featuredTestimonial.role}</span>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Numbers banner */}
