@@ -19,6 +19,34 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        "foreground-secondary": "hsl(var(--foreground-secondary))",
+        "foreground-muted": "hsl(var(--foreground-muted))",
+        terra: {
+          DEFAULT: "hsl(var(--terra))",
+          dark: "hsl(var(--terra-dark))",
+          light: "hsl(var(--terra-light))",
+          ultra: "hsl(var(--terra-ultra))",
+        },
+        sage: {
+          DEFAULT: "hsl(var(--sage))",
+          dark: "hsl(var(--sage-dark))",
+          light: "hsl(var(--sage-light))",
+          ultra: "hsl(var(--sage-ultra))",
+        },
+        gold: {
+          DEFAULT: "hsl(var(--gold))",
+          light: "hsl(var(--gold-light))",
+          ultra: "hsl(var(--gold-ultra))",
+        },
+        creme: {
+          DEFAULT: "hsl(var(--creme))",
+          2: "hsl(var(--creme-2))",
+          3: "hsl(var(--creme-3))",
+        },
+        pain: {
+          bg: "hsl(var(--pain-bg))",
+          text: "hsl(var(--pain-text))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -65,20 +93,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
