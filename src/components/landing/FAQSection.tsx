@@ -4,7 +4,7 @@ import { useReveal } from "@/hooks/useReveal";
 const faqs = [
   { q: "Preciso ter experiência com Ayurveda?", a: "Não precisa saber nada. O protocolo foi criado para mulheres que nunca ouviram falar em Ayurveda. Você aprende do zero, com linguagem simples e aplicação imediata." },
   { q: "É uma dieta restritiva? Vou passar fome?", a: "Não. O RESET não é uma dieta — é um protocolo. Você aprende o que inflama o seu tipo de corpo e como substituir com alimentos que já tem em casa. Sem fome, sem privação." },
-  { q: "Em quanto tempo vou sentir resultados?", a: "A maioria das alunas relata melhora no inchaço e no intestino nos primeiros 3 a 7 dias. Os resultados mais profundos — sono, hormônios, disposição, libido — aparecem ao longo dos 21 dias." },
+  { q: "Em quanto tempo vou sentir resultados?", a: "A maioria das alunas relata melhora no inchaço e no intestino nos primeiros 3 a 7 dias. Os resultados mais profundos — sono, hormônios, disposição, libido — aparecem ao longo dos 10 dias." },
   { q: "Posso fazer mesmo tomando medicamentos?", a: "Para a maioria das pessoas, sim. O protocolo é baseado em alimentação e práticas naturais. Sempre recomendamos consultar seu médico antes de iniciar qualquer mudança de rotina." },
   { q: "Como vou acessar o conteúdo?", a: "Acesso 100% digital e imediato. Após a confirmação do pagamento você recebe e-mail com login e senha. Disponível no celular, tablet ou computador — acesso anual com renovação disponível." },
   { q: "E se eu não gostar? Como funciona a garantia?", a: "7 dias de garantia total. Basta enviar um e-mail e você recebe 100% do valor de volta, sem precisar dar nenhuma explicação. Sem burocracia, sem \"por quê\"." },
