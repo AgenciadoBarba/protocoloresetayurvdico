@@ -6,13 +6,13 @@ const items = [
   { ico: "🍵", title: "Guia de Chás para Digestão e Ciclo", desc: "Combinações específicas para desinflamar o intestino, equilibrar o ciclo e reduzir a TPM.", tag: "Incluso", highlight: false },
   { ico: "⚗️", title: "Fórmulas Prontas para Manipulação", desc: "As fórmulas exatas para manipular as ervas ayurvédicas — sem erro, sem perda de tempo.", tag: "Bônus", highlight: false },
   { ico: "🌱", title: "Desparasitação com Tintura", desc: "Protocolo com ervas específicas para eliminação de parasitas — parte fundamental da desinflamação.", tag: "Incluso", highlight: false },
-  { ico: "👥", title: "Comunidade + Suporte WhatsApp", desc: "Encontros, desafios e trocas. Tire dúvidas diretamente durante todo o processo.", tag: "Acesso anual", highlight: true },
+  { ico: "👥", title: "Comunidade no Instagram Privado", desc: "Perfil exclusivo para alunas com trocas, desafios e relacionamento. Dúvidas são tiradas na área de membros da plataforma, diariamente.", tag: "Acesso anual", highlight: true },
 ];
 
 const steps = [
   "Você entra e <strong>assiste as aulas</strong> — curtas e diretas",
   "Baixa o <strong>passo a passo</strong> completo (ervas, práticas, alimentos)",
-  "Aplica com <strong>suporte por WhatsApp</strong> para dúvidas",
+  "Tira dúvidas na <strong>área de membros</strong> da plataforma, diariamente",
   "Entra na <strong>comunidade</strong> para se manter incentivada",
 ];
 

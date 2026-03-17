@@ -25,7 +25,7 @@ const HeroSection = () => (
       {/* Headline */}
       <h1 className="font-display text-[34px] font-bold leading-[1.1] text-primary-foreground mx-auto mb-5 sm:text-[50px] md:max-w-[800px] md:text-[64px] text-balance">
         O seu corpo desinflamado,<br />
-        desinchado e destravado em <em className="italic text-terra-light">21 dias.</em>
+        desinchado e destravado em <em className="italic text-terra-light">10 dias.</em>
       </h1>
 
       <p className="mx-auto mb-5 max-w-[580px] text-[15px] leading-[1.72] text-primary-foreground/72 sm:text-lg sm:mb-7">
@@ -41,7 +41,7 @@ const HeroSection = () => (
       <div className="mt-11 flex flex-col overflow-hidden rounded-[14px] border border-primary-foreground/10 sm:mx-auto sm:max-w-[560px] sm:flex-row">
         {[
           { num: "88+", label: "mulheres já desinflamadas" },
-          { num: "21", label: "dias para reprogramar seu corpo" },
+          { num: "10", label: "dias para reprogramar seu corpo" },
           { num: "7", label: "dias de garantia — sem risco nenhum" },
         ].map((s, i) => (
           <div key={i} className="border-b border-primary-foreground/[.07] px-4 py-[18px] text-center last:border-b-0 sm:flex-1 sm:border-b-0 sm:border-r sm:last:border-r-0">

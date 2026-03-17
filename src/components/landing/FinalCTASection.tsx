@@ -14,7 +14,7 @@ const FinalCTASection = () => (
         🌿 ESTOU PRONTA — R$197
       </a>
       <span className="mt-3.5 block text-[11.5px] text-primary-foreground/32">
-        Garantia de 7 dias · Acesso imediato · Suporte por WhatsApp
+        Garantia de 7 dias · Acesso imediato · Suporte na plataforma
       </span>
     </div>
   </section>

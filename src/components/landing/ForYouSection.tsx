@@ -4,7 +4,7 @@ const simItems = [
   "Você sente que seu corpo não responde, mesmo tentando de tudo",
   "Fez exames e ouviu \"tá tudo normal\" — mas sabe que não está",
   "Quer entender o que está causando seus sintomas de vez",
-  "Está disposta a seguir um protocolo por 21 dias com consistência",
+  "Está disposta a seguir um protocolo por 10 dias com consistência",
   "Quer resultados sem dieta restritiva e sem sofrimento",
   "Está cansada de recomeçar e quer algo que dure de verdade",
 ];

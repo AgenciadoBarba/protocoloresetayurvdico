@@ -31,7 +31,7 @@ const MethodSection = () => {
               🌿 O método RESET
             </div>
             <h3 className="font-display text-[28px] font-bold leading-[1.15] text-foreground mb-3">
-              Em <em className="italic text-terra">21 dias</em>, seu corpo trabalha a seu favor
+              Em <em className="italic text-terra">10 dias</em>, seu corpo trabalha a seu favor
             </h3>
             <p className="mb-3.5 text-sm leading-[1.78] text-foreground-secondary">
               Respeitando seu ciclo biológico e desinflamando seu intestino, seu corpo passa a te responder. Não é magia — é o seu corpo funcionando como deveria.

@@ -49,7 +49,7 @@ const TestimonialsSection = () => {
             🌿 ESTOU PRONTA — R$197
           </a>
           <span className="mt-3.5 block text-[11.5px] text-foreground-muted">
-            Garantia de 7 dias · Acesso imediato · Suporte por WhatsApp
+            Garantia de 7 dias · Acesso imediato · Suporte na plataforma
           </span>
         </div>
       </div>
