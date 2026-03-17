@@ -12,7 +12,7 @@ const items = [
 const steps = [
   "Você entra e <strong>assiste as aulas</strong> — curtas e diretas",
   "Baixa o <strong>passo a passo</strong> completo (ervas, práticas, alimentos)",
-  "Aplica com <strong>suporte por WhatsApp</strong> para dúvidas",
+  "Tira dúvidas na <strong>área de membros</strong> da plataforma, diariamente",
   "Entra na <strong>comunidade</strong> para se manter incentivada",
 ];
 

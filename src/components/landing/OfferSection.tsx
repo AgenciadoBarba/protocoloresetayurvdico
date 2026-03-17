@@ -8,7 +8,7 @@ const offerItems = [
   "Guia de chás para digestão e ciclo menstrual",
   "Fórmulas prontas para manipulação (bônus)",
   "Protocolo de desparasitação com tintura",
-  "Comunidade + suporte WhatsApp (acesso anual)",
+  "Comunidade no Instagram privado (acesso anual)",
   "Garantia de 7 dias sem questionamentos",
 ];
 

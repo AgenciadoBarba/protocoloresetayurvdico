@@ -41,7 +41,7 @@ const HeroSection = () => (
       <div className="mt-11 flex flex-col overflow-hidden rounded-[14px] border border-primary-foreground/10 sm:mx-auto sm:max-w-[560px] sm:flex-row">
         {[
           { num: "88+", label: "mulheres já desinflamadas" },
-          { num: "21", label: "dias para reprogramar seu corpo" },
+          { num: "10", label: "dias para reprogramar seu corpo" },
           { num: "7", label: "dias de garantia — sem risco nenhum" },
         ].map((s, i) => (
           <div key={i} className="border-b border-primary-foreground/[.07] px-4 py-[18px] text-center last:border-b-0 sm:flex-1 sm:border-b-0 sm:border-r sm:last:border-r-0">
