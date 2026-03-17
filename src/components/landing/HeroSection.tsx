@@ -25,7 +25,7 @@ const HeroSection = () => (
       {/* Headline */}
       <h1 className="font-display text-[34px] font-bold leading-[1.1] text-primary-foreground mx-auto mb-5 sm:text-[50px] md:max-w-[800px] md:text-[64px] text-balance">
         O seu corpo desinflamado,<br />
-        desinchado e destravado em <em className="italic text-terra-light">21 dias.</em>
+        desinchado e destravado em <em className="italic text-terra-light">10 dias.</em>
       </h1>
 
       <p className="mx-auto mb-5 max-w-[580px] text-[15px] leading-[1.72] text-primary-foreground/72 sm:text-lg sm:mb-7">
