@@ -7,13 +7,13 @@ const FinalCTASection = () => (
       <h2 className="mx-auto mb-4 font-display text-[30px] font-bold leading-[1.15] text-primary-foreground sm:text-[40px] md:text-[50px]">
         Vai ser uma honra<br /><em className="italic text-terra-light">te guiar.</em>
       </h2>
-      <p className="mb-9 text-[15px] leading-[1.78] text-primary-foreground/68 sm:text-[17px]">
+      <p className="mb-9 text-[15px] leading-[1.78] text-primary-foreground sm:text-[17px]">
         Dê um passo em direção ao cuidado com o seu corpo. Você merece acordar disposta, com um intestino que funciona, um sono que restaura e um corpo que responde. <strong className="text-primary-foreground">Isso começa agora.</strong>
       </p>
       <a href={CHECKOUT_URL} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
         🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
       </a>
-      <span className="mt-3.5 block text-[11.5px] text-primary-foreground/32">
+      <span className="mt-3.5 block text-[11.5px] text-primary-foreground">
         Garantia de 7 dias · Acesso imediato · Suporte na plataforma
       </span>
     </div>
