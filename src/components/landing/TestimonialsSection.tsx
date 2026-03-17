@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
         {/* CTA */}
         <div className="mt-10 text-center">
           <a href="https://pay.kiwify.com.br/kQKOitt" className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
-            🌿 ESTOU PRONTA — R$197
+            🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
           </a>
           <span className="mt-3.5 block text-[11.5px] text-foreground-muted">
             Garantia de 7 dias · Acesso imediato · Suporte na plataforma
