@@ -1,6 +1,6 @@
 import { useReveal } from "@/hooks/useReveal";
+import { getCheckoutUrl } from "@/lib/checkout";
 
-const CHECKOUT_URL = "https://pay.kiwify.com.br/kQKOitt";
 
 const offerItems = [
   "Aulas em vídeo com acesso anual à plataforma",
@@ -62,7 +62,7 @@ const OfferSection = () => {
               ))}
             </ul>
 
-            <a href={CHECKOUT_URL} className="btn-cta-gradient mb-3 block w-full rounded-full px-5 py-[17px] text-center text-[15.5px] font-bold tracking-wide text-accent-foreground sm:text-[16.5px] sm:py-[18px]">
+            <a href={getCheckoutUrl()} className="btn-cta-gradient mb-3 block w-full rounded-full px-5 py-[17px] text-center text-[15.5px] font-bold tracking-wide text-accent-foreground sm:text-[16.5px] sm:py-[18px]">
               🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
             </a>
             <p className="mb-4 text-center text-[11.5px] text-foreground-muted">Pagamento 100% seguro · Acesso imediato · Cancele em 7 dias</p>
