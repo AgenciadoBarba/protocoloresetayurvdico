@@ -10,7 +10,7 @@ const FinalCTASection = () => (
       <p className="mb-9 text-[15px] leading-[1.78] text-primary-foreground sm:text-[17px]">
         Dê um passo em direção ao cuidado com o seu corpo. Você merece acordar disposta, com um intestino que funciona, um sono que restaura e um corpo que responde. <strong className="text-primary-foreground">Isso começa agora.</strong>
       </p>
-      <a href={CHECKOUT_URL} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
+      <a href={getCheckoutUrl()} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
         🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
       </a>
       <span className="mt-3.5 block text-[11.5px] text-primary-foreground">
