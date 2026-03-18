@@ -1,12 +1,12 @@
 import { useReveal } from "@/hooks/useReveal";
 
 const items = [
-  { ico: "🎥", title: "Aulas em Vídeo Práticas", desc: "Curtas, diretas e fáceis de aplicar. Ferramentas reais para reduzir a inflamação no seu cotidiano.", tag: "Acesso anual", highlight: true },
-  { ico: "📋", title: "Guia Passo a Passo Completo", desc: "O que fazer em cada dia: práticas, ervas e rotinas direcionadas para o seu tipo de corpo.", tag: "PDF completo", highlight: false },
-  { ico: "🍵", title: "Guia de Chás para Digestão e Ciclo", desc: "Combinações específicas para desinflamar o intestino, equilibrar o ciclo e reduzir a TPM.", tag: "Incluso", highlight: false },
-  { ico: "⚗️", title: "Fórmulas Prontas para Manipulação", desc: "As fórmulas exatas para manipular as ervas ayurvédicas — sem erro, sem perda de tempo.", tag: "Bônus", highlight: false },
-  { ico: "🌱", title: "Desparasitação com Tintura", desc: "Protocolo com ervas específicas para eliminação de parasitas — parte fundamental da desinflamação.", tag: "Incluso", highlight: false },
-  { ico: "👥", title: "Comunidade no Instagram Privado", desc: "Perfil exclusivo para alunas com trocas, desafios e relacionamento. Dúvidas são tiradas na área de membros da plataforma, diariamente.", tag: "Acesso anual", highlight: true },
+  { ico: "🎥", title: "Aulas em Vídeo Práticas", desc: "Protocolo completo de 10 dias pra sair do ciclo de inflamação (práticas naturais e alimentação).", tag: "Acesso anual", highlight: true },
+  { ico: "🍵", title: "Guia de Chás", desc: "De acordo com cada fase do ciclo, para digestão, para desinflamação.", tag: "Bônus", highlight: false },
+  { ico: "⚗️", title: "Guia de Fórmulas para Manipulação", desc: "Mande manipular quando quiser — pra celulite, imunidade, disposição, e muitas outras.", tag: "Bônus", highlight: false },
+  { ico: "💊", title: "Aula Bônus sobre Suplementação", desc: "Aprenda os principais suplementos para saúde feminina.", tag: "Bônus", highlight: false },
+  { ico: "👥", title: "Comunidade no Instagram Privado", desc: "Acesso ao perfil privado com encontros, desafios, aulas e receitinhas.", tag: "Bônus", highlight: true },
+  { ico: "📹", title: "Vídeos Gravados", desc: "Para você entender o que te inflama e sair desse ciclo de uma vez por todas.", tag: "Acesso anual", highlight: false },
 ];
 
 const steps = [
