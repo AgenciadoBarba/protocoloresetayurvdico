@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
+import { getCheckoutUrl } from "@/lib/checkout";
 
-const CHECKOUT_URL = "https://pay.kiwify.com.br/kQKOitt";
 
 const StickyBar = () => {
   const [visible, setVisible] = useState(false);

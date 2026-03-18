@@ -1,4 +1,5 @@
 import { useReveal } from "@/hooks/useReveal";
+import { getCheckoutUrl } from "@/lib/checkout";
 import depoimentoAnteDepois from "@/assets/depoimento-antes-depois.jpeg";
 import depoimentoWhatsapp from "@/assets/depoimento-whatsapp.jpeg";
 import depoimentoInstagram from "@/assets/depoimento-instagram.jpg";
@@ -12,8 +13,6 @@ const imageTestimonials = [
   { img: depoimentoResultado, alt: "Resultado após 3 meses do RESET" },
   { img: depoimentoKathi, alt: "Depoimento real de aluna via WhatsApp" },
 ];
-
-const CHECKOUT_URL = "https://pay.kiwify.com.br/kQKOitt";
 
 const TestimonialsSection = () => {
   const ref = useReveal();

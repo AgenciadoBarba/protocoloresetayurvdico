@@ -1,6 +1,6 @@
 import { useReveal } from "@/hooks/useReveal";
+import { getCheckoutUrl } from "@/lib/checkout";
 
-const CHECKOUT_URL = "https://pay.kiwify.com.br/kQKOitt";
 
 const offerItems = [
   "Aulas em vídeo com acesso anual à plataforma",

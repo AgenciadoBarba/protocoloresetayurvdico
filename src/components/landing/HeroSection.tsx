@@ -1,4 +1,4 @@
-const CHECKOUT_URL = "https://pay.kiwify.com.br/kQKOitt";
+import { getCheckoutUrl } from "@/lib/checkout";
 
 const HeroSection = () => (
   <section className="hero-gradient relative overflow-hidden px-5 py-[52px] text-center sm:px-7 sm:py-[68px]">

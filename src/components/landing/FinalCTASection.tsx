@@ -1,4 +1,4 @@
-const CHECKOUT_URL = "https://pay.kiwify.com.br/kQKOitt";
+import { getCheckoutUrl } from "@/lib/checkout";
 
 const FinalCTASection = () => (
   <section className="cta-final-gradient relative overflow-hidden py-[68px] text-center sm:py-[88px]">
