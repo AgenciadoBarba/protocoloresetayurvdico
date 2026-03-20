@@ -19,7 +19,7 @@ const HeroSection = () => (
         em <em className="italic text-terra-light">10 dias.</em>
       </h1>
 
-      <p className="mx-auto mb-8 max-w-[560px] text-[15px] leading-[1.7] text-primary-foreground/72 sm:text-lg">
+      <p className="mx-auto mb-8 max-w-[560px] text-[15px] leading-[1.7] text-primary-foreground sm:text-lg">
         <strong className="text-primary-foreground">Sem dieta restritiva, sem sofrimento</strong> — mesmo que você acredite que já tentou de tudo. O plano completo para parar de brigar com o seu corpo.
       </p>
 
