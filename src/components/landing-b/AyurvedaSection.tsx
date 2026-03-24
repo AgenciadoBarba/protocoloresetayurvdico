@@ -16,7 +16,7 @@ const AyurvedaSection = () => {
           </h2>
 
           <p className="mb-4 text-[15px] leading-[1.78] text-foreground-secondary">
-            Ayurveda é um sistema milenar de saúde originado na Índia que entende o corpo de forma individualizada: cada pessoa tem uma constituição única (chamada <strong className="text-foreground">dosha</strong>), e o que inflama o seu corpo pode não inflamar o da sua vizinha.
+            Ayurveda é um sistema milenar de saúde originado na Índia que entende o corpo de forma individualizada: o que inflama o seu corpo pode não inflamar o da sua vizinha.
           </p>
 
           <p className="mb-4 text-[15px] leading-[1.78] text-foreground-secondary">
