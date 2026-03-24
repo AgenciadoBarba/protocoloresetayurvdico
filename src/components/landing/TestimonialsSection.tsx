@@ -57,7 +57,7 @@ const TestimonialsSection = () => {
             🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
           </a>
           <span className="mt-3.5 block text-[13px] text-foreground-muted">
-            12x de R$20,37 · ou R$197 à vista · Garantia de 7 dias
+            12x de R$10,03 · ou R$97 à vista · Garantia de 7 dias
           </span>
         </div>
       </div>
