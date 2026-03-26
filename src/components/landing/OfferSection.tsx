@@ -1,5 +1,5 @@
 import { useReveal } from "@/hooks/useReveal";
-import { getCheckoutUrl } from "@/lib/checkout";
+import { getCheckoutUrl, trackInitiateCheckout } from "@/lib/checkout";
 
 const offerItems = [
   { text: "Protocolo RESET completo em vídeo (10 dias)", price: null },
@@ -67,7 +67,7 @@ const OfferSection = () => {
               ))}
             </ul>
 
-            <a href={getCheckoutUrl()} className="btn-cta-gradient mb-3 block w-full rounded-full px-5 py-[18px] text-center text-[15.5px] font-bold tracking-wide text-accent-foreground sm:text-[16.5px]">
+            <a href={getCheckoutUrl()} onClick={trackInitiateCheckout} className="btn-cta-gradient mb-3 block w-full rounded-full px-5 py-[18px] text-center text-[15.5px] font-bold tracking-wide text-accent-foreground sm:text-[16.5px]">
               🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
             </a>
             <p className="mb-4 text-center text-[11.5px] text-foreground-muted">Pagamento 100% seguro · Acesso imediato · Cancele em 7 dias sem perguntas</p>

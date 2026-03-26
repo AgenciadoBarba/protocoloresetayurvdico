@@ -1,3 +1,4 @@
+import { useUtmCapture } from "@/hooks/useUtmCapture";
 import TopBar from "@/components/landing/TopBar";
 import HeroSection from "@/components/landing/HeroSection";
 import PainSection from "@/components/landing/PainSection";
@@ -15,7 +16,9 @@ import FinalCTASection from "@/components/landing/FinalCTASection";
 import Footer from "@/components/landing/Footer";
 import StickyBar from "@/components/landing/StickyBar";
 
-const Index = () => (
+const Index = () => {
+  useUtmCapture();
+  return (
   <div className="pb-[68px] md:pb-0">
     <TopBar />
     <HeroSection />
@@ -34,6 +37,7 @@ const Index = () => (
     <Footer />
     <StickyBar />
   </div>
-);
+  );
+};
 
 export default Index;
