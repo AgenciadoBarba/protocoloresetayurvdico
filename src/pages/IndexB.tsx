@@ -41,6 +41,7 @@ const IndexB = () => {
     <Footer />
     <StickyBar />
   </div>
-);
+  );
+};
 
 export default IndexB;
