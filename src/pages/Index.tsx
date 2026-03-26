@@ -1,3 +1,4 @@
+import { useUtmCapture } from "@/hooks/useUtmCapture";
 import TopBar from "@/components/landing/TopBar";
 import HeroSection from "@/components/landing/HeroSection";
 import PainSection from "@/components/landing/PainSection";
