@@ -1,5 +1,5 @@
 import { useReveal } from "@/hooks/useReveal";
-import { getCheckoutUrl } from "@/lib/checkout";
+import { getCheckoutUrl, trackInitiateCheckout } from "@/lib/checkout";
 import depoimentoAnteDepois from "@/assets/depoimento-antes-depois.jpeg";
 import depoimentoWhatsapp from "@/assets/depoimento-whatsapp.jpeg";
 import depoimentoInstagram from "@/assets/depoimento-instagram.jpg";
@@ -51,7 +51,7 @@ const TestimonialsSectionB = () => {
           <p className="mx-auto mb-8 max-w-[540px] text-[15px] leading-[1.78] text-foreground-secondary sm:text-[17px]">
             Em 10 dias de protocolo, você pode ser o próximo print de resultado que uma mulher vê e pensa: <em className="italic text-foreground">"quero isso pra mim."</em>
           </p>
-          <a href={getCheckoutUrl()} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
+          <a href={getCheckoutUrl()} onClick={trackInitiateCheckout} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
             🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
           </a>
           <span className="mt-3.5 block text-[13px] text-foreground-muted">
