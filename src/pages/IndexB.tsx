@@ -16,7 +16,7 @@ import OfferSection from "@/components/landing/OfferSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
 import Footer from "@/components/landing/Footer";
-import StickyBar from "@/components/landing/StickyBar";
+
 
 const IndexB = () => {
   useUtmCapture();
