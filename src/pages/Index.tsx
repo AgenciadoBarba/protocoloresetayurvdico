@@ -19,7 +19,7 @@ import Footer from "@/components/landing/Footer";
 const Index = () => {
   useUtmCapture();
   return (
-  <div className="pb-[68px] md:pb-0">
+  <div>
     <TopBar />
     <HeroSection />
     <PainSection />
