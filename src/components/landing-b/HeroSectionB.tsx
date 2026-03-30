@@ -7,7 +7,7 @@ const HeroSectionB = () => (
 
     <div className="relative z-10 mx-auto max-w-[760px]">
       <div className="mb-6 inline-block rounded-full border border-terra/45 bg-terra/20 px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-[2px] text-terra-light">
-        ✦ Protocolo de Desinflamação Ayurvédico
+        Já tentou de tudo e seu corpo ainda não responde?
       </div>
 
       <h1 className="font-display text-[36px] font-bold leading-[1.08] text-primary-foreground mx-auto mb-5 sm:text-[50px] md:text-[68px] text-balance">
