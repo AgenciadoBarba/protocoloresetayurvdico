@@ -5,6 +5,7 @@ import depoimentoWhatsapp from "@/assets/depoimento-whatsapp.jpeg";
 import depoimentoInstagram from "@/assets/depoimento-instagram.jpg";
 import depoimentoResultado from "@/assets/depoimento-resultado.jpg";
 import depoimentoKathi from "@/assets/depoimento-kathi.jpg";
+import depoimentoSanny from "@/assets/depoimento-sanny.jpeg";
 
 const imageTestimonials = [
   { img: depoimentoAnteDepois, alt: "Resultado real — antes e depois do protocolo RESET" },
@@ -12,6 +13,7 @@ const imageTestimonials = [
   { img: depoimentoInstagram, alt: "Comentário espontâneo no Instagram" },
   { img: depoimentoResultado, alt: "Resultado após 3 meses do RESET" },
   { img: depoimentoKathi, alt: "Depoimento real de aluna via WhatsApp — Kathi" },
+  { img: depoimentoSanny, alt: "Depoimento da Sanny — cura da sinusite após o RESET" },
 ];
 
 const TestimonialsSectionB = () => {
