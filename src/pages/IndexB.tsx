@@ -39,7 +39,7 @@ const IndexB = () => {
     <FAQSection />
     <FinalCTASection />
     <Footer />
-    <StickyBar />
+    
   </div>
   );
 };
