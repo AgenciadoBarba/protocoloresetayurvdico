@@ -35,7 +35,7 @@ const Index = () => {
     <FAQSection />
     <FinalCTASection />
     <Footer />
-    <StickyBar />
+    
   </div>
   );
 };
