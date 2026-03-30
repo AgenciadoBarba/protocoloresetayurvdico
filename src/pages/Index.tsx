@@ -14,12 +14,12 @@ import OfferSection from "@/components/landing/OfferSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
 import Footer from "@/components/landing/Footer";
-import StickyBar from "@/components/landing/StickyBar";
+ 
 
 const Index = () => {
   useUtmCapture();
   return (
-  <div className="pb-[68px] md:pb-0">
+  <div>
     <TopBar />
     <HeroSection />
     <PainSection />
@@ -35,7 +35,7 @@ const Index = () => {
     <FAQSection />
     <FinalCTASection />
     <Footer />
-    <StickyBar />
+    
   </div>
   );
 };
