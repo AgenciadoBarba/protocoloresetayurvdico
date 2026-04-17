@@ -14,8 +14,8 @@ const HeroSection = () => (
 
       {/* Headline */}
       <h1 className="font-display text-[36px] font-bold leading-[1.08] text-primary-foreground mx-auto mb-5 sm:text-[50px] md:text-[68px] text-balance">
-        Seu corpo desinflamado,<br />
-        desinchado e destravado<br />
+        Seu corpo desinflamado<br />
+        de forma natural<br />
         em <em className="italic text-terra-light">10 dias.</em>
       </h1>
 
