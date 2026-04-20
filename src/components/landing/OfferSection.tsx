@@ -38,15 +38,14 @@ const OfferSection = () => {
 
           {/* Body */}
           <div className="px-[22px] py-7 sm:px-8 sm:py-9">
-            <p className="mb-0.5 text-sm text-foreground-muted line-through">De R$297</p>
-            <p className="mb-0 text-sm text-foreground-secondary">12x de</p>
+            <p className="mb-1 text-sm text-foreground-muted">De <span className="line-through">R$297,00</span> por</p>
             <div className="mb-1 flex items-baseline justify-center gap-0.5">
               <span className="text-lg font-bold text-sage">R$</span>
-              <span className="font-display text-[80px] font-bold leading-[.9] text-sage">10</span>
-              <span className="mt-2.5 self-start text-lg font-bold text-sage">,03</span>
+              <span className="font-display text-[80px] font-bold leading-[.9] text-sage">97</span>
+              <span className="mt-2.5 self-start text-lg font-bold text-sage">,00</span>
             </div>
             <p className="mb-5 text-[13px] text-foreground-secondary">
-              no cartão · ou <strong className="text-foreground">R$97,00 à vista</strong>
+              à vista · ou <strong className="text-foreground">12x de R$10,03</strong> no cartão
             </p>
 
             <ul className="mb-5 flex flex-col gap-[8px] text-left">
