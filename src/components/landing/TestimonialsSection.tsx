@@ -1,5 +1,4 @@
 import { useReveal } from "@/hooks/useReveal";
-import { getCheckoutUrl, trackInitiateCheckout } from "@/lib/checkout";
 import depoimentoAnteDepois from "@/assets/depoimento-antes-depois.jpeg";
 import depoimentoWhatsapp from "@/assets/depoimento-whatsapp.jpeg";
 import depoimentoInstagram from "@/assets/depoimento-instagram.jpg";
@@ -46,22 +45,6 @@ const TestimonialsSection = () => {
           </p>
         </div>
 
-        {/* CTA block */}
-        <div className="mt-14 text-center">
-          <span className="mb-3 block text-[11px] font-bold uppercase tracking-[3px] text-sage">88+ mulheres já transformaram seus corpos</span>
-          <h3 className="font-display text-[28px] font-bold leading-[1.15] text-foreground mb-3 sm:text-[36px] md:text-[44px]">
-            Seu corpo desinflamado<br /><em className="italic text-terra">começa hoje.</em>
-          </h3>
-          <p className="mx-auto mb-8 max-w-[540px] text-[15px] leading-[1.78] text-foreground-secondary sm:text-[17px]">
-            Em 10 dias de protocolo, você pode ser o próximo print de resultado que uma mulher vê e pensa: <em className="italic text-foreground">"quero isso pra mim."</em>
-          </p>
-          <a href={getCheckoutUrl()} onClick={trackInitiateCheckout} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
-            🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
-          </a>
-          <span className="mt-3.5 block text-[13px] text-foreground-muted">
-            12x de R$10,03 · ou R$97 à vista · Garantia de 7 dias
-          </span>
-        </div>
       </div>
     </section>
   );

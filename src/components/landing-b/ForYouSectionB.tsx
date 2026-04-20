@@ -1,5 +1,5 @@
 import { useReveal } from "@/hooks/useReveal";
-import { getCheckoutUrl, trackInitiateCheckout } from "@/lib/checkout";
+import { getCheckoutUrl } from "@/lib/checkout";
 
 const simItems = [
   "Você sente que seu corpo não responde, mesmo tentando de tudo",
@@ -58,7 +58,7 @@ const ForYouSectionB = () => {
         </p>
 
         <div className="mt-7 text-center">
-          <a href={getCheckoutUrl()} onClick={trackInitiateCheckout} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
+          <a href={getCheckoutUrl()} className="btn-cta-gradient mx-auto block w-full rounded-full px-5 py-[18px] text-center text-base font-bold tracking-wide text-accent-foreground sm:inline-block sm:w-auto sm:px-14 sm:py-5 sm:text-[17px]">
             🌿 QUERO MEU CORPO DESINFLAMADO EM 10 DIAS
           </a>
           <span className="mt-3.5 block text-[13px] text-foreground-muted">
