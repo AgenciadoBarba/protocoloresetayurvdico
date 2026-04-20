@@ -3,9 +3,9 @@ import { getCheckoutUrl, trackInitiateCheckout } from "@/lib/checkout";
 
 const offerItems = [
   { text: "Protocolo RESET completo em vídeo (10 dias)", price: null },
-  { text: "Guia de Chás para Digestão e Ciclo", price: "R$67" },
-  { text: "Fórmulas Prontas para Manipulação", price: "R$97" },
-  { text: "Protocolo de Desparasitação", price: "R$77" },
+  { text: "Guia de Chás para Digestão e Ciclo", price: "R$47" },
+  { text: "Fórmulas Prontas para Manipulação", price: "R$67" },
+  { text: "Protocolo de Desparasitação", price: "R$63" },
   { text: "Aula Bônus sobre Suplementação Feminina", price: null },
   { text: "Comunidade anual + encontros ao vivo", price: "R$120" },
   { text: "Suporte diário na área de membros", price: null },
