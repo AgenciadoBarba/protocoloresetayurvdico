@@ -38,7 +38,7 @@ const OfferSection = () => {
 
           {/* Body */}
           <div className="px-[22px] py-7 sm:px-8 sm:py-9">
-            <p className="mb-1 text-sm text-foreground-muted">De <span className="line-through">R$594,00</span> por</p>
+            <p className="mb-1 text-sm text-foreground-muted">De <span className="line-through">R$297,00</span> por</p>
             <div className="mb-1 flex items-baseline justify-center gap-0.5">
               <span className="text-lg font-bold text-sage">R$</span>
               <span className="font-display text-[80px] font-bold leading-[.9] text-sage">97</span>
