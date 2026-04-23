@@ -39,8 +39,8 @@ const IncludedSectionB = () => {
           <span className="hidden text-[32px] text-foreground-muted sm:block">→</span>
           <div>
             <p className="text-[11px] font-bold uppercase tracking-[2px] text-sage">Você paga apenas</p>
-            <p className="font-display text-[36px] font-bold text-sage sm:text-[42px]">R$ 97,00</p>
-            <p className="text-[12px] text-foreground-muted">ou 12x de R$10,03 no cartão</p>
+            <p className="font-display text-[36px] font-bold text-sage sm:text-[42px]">R$ 67,00</p>
+            <p className="text-[12px] text-foreground-muted">ou 12x de R$6,93 no cartão</p>
           </div>
         </div>
 
